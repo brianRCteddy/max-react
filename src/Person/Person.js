@@ -2,7 +2,7 @@ import React from 'react';
 
 const Person = (props) => {
 	return (
-		<div>
+		<div className="Person">
 			<h3 onClick={props.onButtonChange}>
 				{props.name} age: {props.age}
 			</h3>
